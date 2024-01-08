@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Stone Paper Scissor</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="game-heading">
+            Stone Paper Scissor
+        </h1>
+    </header>
+
+    <main>
+        <div class="choices">
+            <div class="choice" id="rock">
+                <img src="./Images/rock.png" />
+            </div>
+            <div class="choice" id="paper">
+                <img src="./Images/paper.png" />
+            </div>
+            <div class="choice" id="scissors">
+                <img src="./Images/scissor.png" />
+            </div>
+        </div>
+
+        <div class="score_board">
+            <div id="user-score">
+                <p id="user_score">0</p>
+                <p>User</p>
+            </div>
+            <div id="comp-score">
+                <p id="comp_score">0</p>
+                <p>Computer</p>
+            </div>
+        </div>
+        <div class="msg-container">
+            <p id="msg">Play Your Move</p>
+        </div>
+    </main>
+    <footer>
+        &copy;Kunal_Wadhai.
+    </footer>
+    <script src="spsGame.js" async defer></script>
+</body>
+
+</html>

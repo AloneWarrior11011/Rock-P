@@ -1,0 +1,99 @@
+    * {
+        margin: 0;
+        padding: 0;
+        align-items: center;
+    }
+    
+    #game-heading {
+        animation: colors 3s infinite;
+        color: white;
+        height: 5rem;
+        line-height: 5rem;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    @keyframes colors {
+        33% {
+            background-color: #081b31;
+        }
+        66% {
+            background-color: indigo;
+        }
+        100% {
+            background-color: brown;
+        }
+    }
+    
+    img {
+        height: 150px;
+        width: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    
+    .choices {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        margin-top: 5rem;
+    }
+    
+    .choice {
+        height: 165px;
+        width: 165px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        border-radius: 50%;
+    }
+    
+    .choice:hover {
+        cursor: pointer;
+        background-color: darkgray;
+    }
+    
+    .score_board {
+        height: 150px;
+        width: 400px;
+        border: solid #081b31;
+        display: inline;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin: 5rem;
+        margin-left: 35%;
+        font-size: 40px;
+        gap: 6rem;
+        color: #081b31;
+    }
+    
+    #msg {
+        /*background-color: #081b31;
+    display: inline;
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    margin-left: 40%;
+    border-radius: 5%; */
+        background-color: #081b31;
+        color: #fff;
+        font-size: 2rem;
+        display: inline;
+        justify-content: center;
+        text-align: center;
+        margin-left: 40%;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+    }
+    
+    footer {
+        margin-top: 2.5rem;
+        justify-content: center;
+        text-align: center;
+        font-size: 20px;
+    }
