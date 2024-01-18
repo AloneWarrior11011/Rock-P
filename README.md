@@ -16,4 +16,4 @@
 
 # Link of the game : 
 
-<a href="[https://papaya-cobbler-f1c306.netlify.app/](https://tranquil-malasada-f75618.netlify.app/)https://tranquil-malasada-f75618.netlify.app/">Rock-Paper-Scissor</a>
+<a href="https://tranquil-malasada-f75618.netlify.app/">Rock-Paper-Scissor</a>
